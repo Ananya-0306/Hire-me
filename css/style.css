@@ -256,7 +256,7 @@ div#word-mark h1 a {
 /*-- /header --*/
 
 .banner_section {
-    background: url(../images/banner.png) no-repeat 0px 0px;
+    background: url(../images/bg.gif) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -366,7 +366,7 @@ h4.progress-tittle-w3 {
 /*--//about--*/
 
 .services {
-    background: url(../images/serve.jpg) no-repeat 0px 0px;
+    background: url(../images/bg5.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -383,13 +383,13 @@ h4.progress-tittle-w3 {
 }
 
 .service-in .card:hover {
-    background: #037ef3;
+    background: #9bebd9;
 
 }
 
 .service-in p.card-text {
     line-height: 1.9em;
-    color: #fff;
+    color: #333;
     font-size: 0.8em;
     letter-spacing: 2px;
 }
@@ -613,7 +613,7 @@ p.quia {
 /*--/testimonials--*/
 
 .testimonials {
-    background: url(../images/testimonials.jpg) no-repeat 0px -94px;
+    background: url(../images/testi.jpg) no-repeat 0px -94px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -718,12 +718,12 @@ a.carousel-control-prev.test {
 }
 
 .address-right p {
-    color: #e8e7e7;
+    color: #000000;
     line-height: 0.8em;
 }
 
 .address-right h6 {
-    color: #fff;
+    color: rgb(0, 0, 0);
     text-transform: uppercase;
     font-weight: 400;
     font-size: 0.9em;
@@ -759,11 +759,11 @@ p.sub {
     outline: none;
     padding: 15px 15px;
     font-size: 14px;
-    color: #fff;
+    color: rgb(14, 14, 14);
     background: none;
     width: 100%;
     letter-spacing: 1px;
-    border: 2px solid rgba(248, 249, 250, 0.36);
+    border: 2px solid rgba(10, 50, 90, 0.36);
 }
 
 .contact_grid_right textarea {
@@ -778,7 +778,7 @@ p.sub {
     padding: 1.2em 3em;
     font-size: 14px;
     color: #fff;
-    background: #037ef3;
+    background: #028d48;
     border: none;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -802,7 +802,7 @@ p.sub {
     background: none;
     outline: 0;
     box-shadow: none;
-    border: 2px solid rgba(3, 126, 243, 0.86);
+    border: 2px solid rgba(0, 0, 0, 0.86);
 }
 
 .contact-left h4 {
@@ -1052,7 +1052,7 @@ ul.social-icons li a:hover {
     height: 40px;
     border: none;
     text-indent: 100%;
-    background: #0d0d0d url(../images/move_up.png) no-repeat 11px 11px;
+    background: #010808 url(../images/move_up.png) no-repeat 11px 11px;
 }
 
 #toTopHover {
@@ -1070,7 +1070,7 @@ ul.social-icons li a:hover {
 
 @media(max-width:1440px) {
     .testimonials {
-        background: url(../images/testimonials.jpg) no-repeat 0px -57px;
+        background: url(../images/testi.jpg) no-repeat 0px -57px;
         background-size: cover;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -1088,7 +1088,7 @@ ul.social-icons li a:hover {
         height: 55vw;
     }
     .testimonials {
-        background: url(../images/testimonials.jpg) no-repeat 0px -30px;
+        background: url(../images/testi.jpg) no-repeat 0px -30px;
         background-size: cover;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -1140,7 +1140,7 @@ ul.social-icons li a:hover {
         height: 37vw;
     }
     .testimonials {
-        background: url(../images/testimonials.jpg) no-repeat 0px 0px;
+        background: url(../images/testi.jpg) no-repeat 0px 0px;
         background-size: cover;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -1685,5 +1685,15 @@ ul.social-icons li a:hover {
         width: 64%;
     }
 }
-
+h2, .h2 {
+    font-size: 24px;
+    text-align: center;
+}
+.text-white {
+    color: #135969 !important;
+}
+.service-in .card h5.card-title {
+    font-size: 1.1em;
+    color: #074374;
+}
 /*--//responsive--*/
