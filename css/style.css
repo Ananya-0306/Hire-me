@@ -469,7 +469,7 @@ p.sub-meta {
 /*-- stats --*/
 
 .stats {
-    background: url(../images/stats.jpg) no-repeat 0px 0px;
+    background: rgb(252, 211, 218);
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -482,7 +482,7 @@ p.sub-meta {
     font-size: 2.5em;
     letter-spacing: 1px;
     font-weight: 700;
-    color: #fff;
+    color: rgb(180, 3, 85);
 }
 
 .stats_info h4 {
